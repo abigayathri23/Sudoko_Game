@@ -14,16 +14,21 @@ The game allows users to solve a partially filled Sudoku puzzle and validate the
 graphql
 Copy code
 sudoku-game/
+
 │
+
 ├── index.html
 
 ├── styles.css 
 
 ├── script.js
 
-├── backend/          
-│   ├── server.js     
-│   └── package.json  
+├── backend/  
+
+│   ├── server.js  
+
+│   └── package.json 
+
 └── README.md 
 
 ## How to Play
