@@ -9,27 +9,17 @@ The game allows users to solve a partially filled Sudoku puzzle and validate the
 - Solution validation using a Node.js backend server.
 - Easy-to-use interface.
 
-
 ## Project Structure
-graphql
-Copy code
 sudoku-game/
-
 │
+├── index.html        # Main HTML structure
+├── styles.css        # CSS file for layout and animations
+├── script.js         # JavaScript for grid functionality
+├── backend/          # Backend files
+│   ├── server.js     # Backend server code
+│   └── package.json  # Backend dependencies
+└── README.md         # Project documentation
 
-├── index.html
-
-├── styles.css 
-
-├── script.js
-
-├── backend/  
-
-│   ├── server.js  
-
-│   └── package.json 
-
-└── README.md 
 
 ## How to Play
 - Open the Sudoku game in your browser.
